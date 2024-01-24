@@ -195,20 +195,20 @@ inquirer.prompt([
 {
   name: "role",
   type: "input",
-  message: "Enter the role you would like to add:"
+  message: "What role would you like to add?"
 },
 
 {
     name: "dept",
     type: "list",
-    message: "In what department would you like to add this role?",
+    message: "What department would you like to add this role to?",
     choices: deptChoices
 },
 
 {
   name: "salary",
   type: "number",
-  message: "Enter the role's salary:"
+  message: "Enter this role's salary"
 },
 
  ]).then(function(answer) {
@@ -234,7 +234,7 @@ inquirer.prompt([
 {
   name: "dept",
   type: "input",
-  message: "Enter the department you would like to add:"
+  message: "What department would you like to add?"
 }
 ]).then(function(answer) {
   var query = 
@@ -246,6 +246,7 @@ inquirer.prompt([
   runSearch();
 });
 };
+
 
 
 function updateRole() {
