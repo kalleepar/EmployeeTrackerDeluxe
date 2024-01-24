@@ -24,7 +24,7 @@ INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Damian
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Barbara", "Gordon", 2, 1);
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Jean-Paul", "Valley", 3, 1);
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Alfred", "Pennyworth", 4, 1 );
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Harper", "Row", 9, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Harper", "Row", 2, 1);
 
 
 CREATE TABLE role (
